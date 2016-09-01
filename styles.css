@@ -1,3 +1,108 @@
-body {
-		background:pink; 
+.align-center {
+	margin: 0 auto;
+	display:block;
 }
+body {
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  background: #ffffff;
+  padding: 1em 0;
+}
+
+
+/* Navigation
+------------------------------------------*/
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: .5em;
+}
+
+nav ul li a {
+  padding: .5em 1em;
+  background: #cccccc;
+  border-radius: 15px;
+  transition: all 1s ease-in-out;
+}
+
+.site-header nav a {
+  display: block;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+
+}
+
+
+nav ul li a:hover {
+  background: pink;
+}
+
+/* Coloured boxes
+------------------------------------------*/
+
+.container {
+  display:flex;
+  justify-content:space-between;
+}
+
+.achievement {
+  padding:1em;
+  background: yellow;
+  width:15%;
+  border:2px solid navy;
+}
+
+.standards {
+  padding:1em;
+  background: green;
+  width:15%;
+  border:2px solid yellow;
+}
+
+.events {
+  padding:1em;
+  background: #77cdf6;
+  width:15%;
+  border: 2px solid red;
+}
+
+.other {
+  padding:1em;
+  background: red;
+  width:15%;
+  border: 2px solid black;  
+}
+
