@@ -107,3 +107,23 @@ nav ul li a:hover {
   border: 2px solid black;  
 }
 
+/* Coloured boxes
+------------------------------------------*/
+
+
+  @keyframes flying {
+    from {
+        left: -999em;
+      } 
+      to {
+        left:0;
+      }
+  }
+
+.fly-in {
+  animation: flying 5s forwards;
+  position:relative;
+}
+
+
+
