@@ -103,6 +103,7 @@ nav ul li a:hover {
 .other {
   padding:1em;
   background: red;
+
   width:15%;
   border: 2px solid black;  
 }
@@ -123,6 +124,7 @@ nav ul li a:hover {
 .fly-in {
   animation: flying 5s forwards;
   position:relative;
+  color: blue;
 }
 
 
