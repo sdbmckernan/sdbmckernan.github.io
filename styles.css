@@ -123,8 +123,13 @@ nav ul li a:hover {
 
 .fly-in {
   animation: flying 5s forwards;
-  position:relative;
+  margin: 2em 0;
   color: blue;
+}
+
+.video {
+  position:absolute;
+  padding:1em;
 }
 
 
